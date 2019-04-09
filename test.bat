@@ -1,0 +1,1 @@
+python C:\Users\Administrator\Desktop\dqfd.py
