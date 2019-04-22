@@ -2,7 +2,11 @@
 
 ## Setting under Win
 
-// todo
-1. 依次打开开始/所有程序/管理工具/任务计划程序，然后在窗口右方单创建基本任务项。
-2. 输入工作的名称后，可以设置触发运行工作的条件，例如开机时运行、指定时间运行或者每隔一段时间运行，以符合不同情况的需要。
-3. 如果选择每天、每周、每月、仅一次的情况，需要更进一步设置自动工作的时间条件。
+1. Start -> All Programs -> Accessoriest -> System Tools -> Task Scheduler  
+2. Action -> Create Task  
+  + Add a task name, (description, security options) under General tab.  
+  + Add a new trigger under Triggers tab:  
+      + Set as daily, on 6:00:00 PM on +8:00 time zone.
+  + Add a new action under Actions tab: 
+      + Set action as `Start a program`;  
+      + add `test.bat` to Program/script.
